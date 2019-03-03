@@ -40,13 +40,13 @@ class App extends Component {
         <h1 className='title'>BOOK FINDER</h1>
         <form onSubmit={this.searchBooks}>
           <input 
-            type='text' 
+            type='search' 
             name='searchInput' 
             onChange={this.onInputChange} 
             value={this.state.searchInput}
             placeholder='Searching for a book?'
           />
-          <button className='search_btn'>Search</button>
+          <button className='search_btn'><i class="fas fa-search"></i></button>
         </form>
         <div>
           <Books books={this.state.foundBooks}/>
