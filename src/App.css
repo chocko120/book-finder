@@ -110,8 +110,8 @@ input {
 }
 
 .search_btn:hover {
-  background-color: #07c164;
-  color: white;
+  /* background-color: #07c164;
+  color: white; */
   /* border: 1px solid #07c164; */
   transition: 0.3s;
 }
